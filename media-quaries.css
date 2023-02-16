@@ -1,88 +1,65 @@
-  @media(max-width: 500px) {
-    body {
+  @media(max-width: 500px) { body {
       display: block;
     }
 
-    header {
-      padding-top: 1.5rem;
-      padding-right: 2rem;
-      border: none;
+    header { padding-top: 1.5rem; padding-right: 2rem; border: none;
     }
 
-    .logo {
-      display: none;
+    .logo { display: none;
     }
 
-    .first_nav_card {
-      width: 100%;
+    .first_nav_card { width: 100%;
     }
 
-    .first_nav_card ul {
-      height: 50px;
-      box-shadow: 1px 1px 3px rgba(3, 3, 3, 0.2);
+    .first_nav_card ul { height: 50px; box-shadow: 1px 1px 3px rgba(3, 3, 3, 0.2);
     }
 
-    .second_nav_card {
-      display: none;
+    .second_nav_card { display: none;
     }
 
-    .first_nav_card ul .nav_list {
-      border: none;
+    .first_nav_card ul .nav_list { border: none;
     }
 
-    .category_section {
-      top: 6rem;
-      margin: 0;
-      padding: 2rem 0 1rem;
-      box-shadow: 1px 1px 3px rgba(3, 3, 3, 0.2);
+    .category_section { top: 6rem; margin: 0; padding: 2rem 0 1rem; box-shadow: 1px 1px 3px rgba(3, 3, 3, 0.2);
     }
 
-    .category_feature {
-      display: flex;
+    .category_feature { display: flex;
     }
 
-    .feature_box {
-      width: 95px;
-      gap: 0.5rem;
+    .feature_box { width: 95px; gap: 0.5rem;
     }
 
-    .filter_button {
-      display: none;
+    .filter_button { display: none;
     }
 
-    .chevron_icon {
-      display: none;
+    .chevron_icon { display: none;
     }
 
-    .category_gallery_Section {
-      padding-left: 2rem;
-      padding-right: 2rem;
-      margin-top: 14rem;
+    .category_gallery_Section { padding-left: 2rem; padding-right: 2rem; margin-top: 14rem;
     }
 
-    .gallery_content {
-      grid-template-columns: 1fr;
-      column-gap: 2rem;
-      padding: 0;
+    .gallery_content { grid-template-columns: 1fr; column-gap: 2rem; padding: 0;
     }
 
-    .gallery_box {
-      width: 100%;
-      margin: 0 auto;
+    .gallery_box { width: 100%; margin: 0 auto;
     }
 
-    .gallery_img {
-      width: 100%;
+    .gallery_img { width: 100%;
     }
   }
 
-  /****************** MEDIUM SCREEN ************************/
-  @media(min-width: 501px) and (max-width: 900px) {
+  /****************** MEDIUM SCREEN ************************/ @media(min-width: 501px) and (max-width: 900px) {
     body {
       display: block;
     }
 
-    .gallery_content {
-      grid-template-columns: 1fr 1fr;
+    .gallery_content { grid-template-columns: 1fr 1fr;
+    }
+.chevron_icon { display: none;
+    }
+.chevron_icon { display: none;
+    }
+
+.filter_button { display: none;
     }
   }
