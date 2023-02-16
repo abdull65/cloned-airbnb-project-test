@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 @media only screen and (max-width: 500px) {
+=======
+@media(max-width: 500px) {
+>>>>>>> 6f398f2eaf80eb32839d7c4aef172101a2673220
   body {
     display: block;
   }
@@ -77,8 +81,19 @@
 }
 
 /****************** MEDIUM SCREEN ************************/
+<<<<<<< HEAD
 @media (min-width: 501px) and (max-width: 900px) {
+=======
+@media (min-width: 501px) and (min-width: 900px) {
+>>>>>>> 6f398f2eaf80eb32839d7c4aef172101a2673220
   body {
-    display: none;
+    display: block;
+  }
+<<<<<<< HEAD
+}
+=======
+  .gallery_content {
+    grid-template-columns: 1fr 1fr;
   }
 }
+>>>>>>> 6f398f2eaf80eb32839d7c4aef172101a2673220
