@@ -1,5 +1,4 @@
-  @media(max-width: 500px) { body {
-      display: block;
+  @media(max-width: 600px) { body { display: block;
     }
 
     header { padding-top: 1.5rem; padding-right: 2rem; border: none;
@@ -20,7 +19,7 @@
     .first_nav_card ul .nav_list { border: none;
     }
 
-    .category_section { top: 6rem; margin: 0; padding: 2rem 0 1rem; box-shadow:
+    .category_section { top: 6rem; margin: 0; padding: 2rem 0 1rem; box-shadow: 
         1px 1px 3px rgba(3, 3, 3, 0.2);
     }
 
@@ -51,7 +50,7 @@
   }
 
   /****************** MEDIUM SCREEN ************************/ @media(min-width: 
-  501px) and (max-width: 900px) {
+  601px) and (max-width: 900px) {
     body { display: block;
     }
 
@@ -77,6 +76,10 @@
 
     .chevron_icon { display: none;
     }
+.category_feature { dispay: flex;
+}
+.featured_box { width: 95px;
+}
 
     .filter_button { display: none;
     }
