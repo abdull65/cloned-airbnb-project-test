@@ -81,6 +81,7 @@
 	    padding-right: 0;
     }
     .category_content {
+	    justify-content: center;
 	    gap: 0;
     }
 .category_feature { display: flex;
