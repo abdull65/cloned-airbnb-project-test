@@ -76,9 +76,16 @@
 
     .chevron_icon { display: none;
     }
-.category_feature { dispay: flex;
+    .category_section {
+	    padding-left: 0;
+	    padding-right: 0;
+    }
+    .category_content {
+	    gap: 0;
+    }
+.category_feature { display: flex;
 }
-.featured_box { width: 95px;
+.featured_box { width: 120px;
 }
 
     .filter_button { display: none;
